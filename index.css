@@ -1,0 +1,22 @@
+.audit{
+    display: flex;
+    justify-content: space-around;
+   margin-bottom: 159px;
+}
+.audit-social{
+    text-align: center;
+    margin-left: 74px;
+}
+.audit-title{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: DM Sans;
+    color: #19191B;
+}
+.audit-description{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Mulish;
+    color:#696871
+    ;
+}
