@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Mulish&display=swap');
+
+/* 
+font-family: 'DM Sans', sans-serif;
+font-family: 'Mulish', sans-serif;
+#E7E7E7
+
+*/
+
+:root {
+    --dark: #19191B;
+    --orange: #FF7143;
+    --gray: #696871;
+    --blue: #5454D4;
+    --white: #fff;
+    --light-gray: #F8F8F8;
+    --dark-orange: #9F3919;
+    --background: #F2F2F2;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.wrapper {
+    max-width: 1070px;
+    padding-right: 186px;
+    padding-left: 184px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.main-text {
+    flex: 0 0 459px;
+    margin-right: 77px;
+}
+
+.main-text--title {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1;
+    color: var(--dark);
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.main-text--description {
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--gray);
+    max-width: 459px;
+    margin-bottom: 50px;
+}
+
+.main-text--link {
+    background-color: var(--blue);
+    padding: 19px 59px;
+    color: var(--white);
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.main-btn {
+    display: flex;
+    align-items: center;
+}
+
+.main-btn--arrow {
+    padding: 18px 19px;
+    border: 1px solid #E7E7E7;
+    border-radius: 50%;
+    margin-left: 59px;
+}
+
+.main-btn--arrow img {
+    width: 22px;
+    height: 22px;
+}
+
+.main-img {
+    width: 610px;
+    height: 644px;
+}
+
+.index {
+    display: flex;
+    align-items: center;
+    margin-top: 159px;
+}
+
+.index-img {
+    margin-right: 165px;
+}
+
+.index-text-title {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.index-text-description,
+.content-text-description {
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--gray);
+    max-width: 459px;
+    margin-bottom: 30px;
+}
+
+.index-text-link,
+.content-text-link {
+    color: var(--blue);
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin-top: 83px;
+}
+
+.content-img {
+    margin-left: 158px;
+}
+
+.content-text-title {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
